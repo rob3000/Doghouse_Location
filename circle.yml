@@ -1,0 +1,17 @@
+machine:
+  timezone:
+    Australia/Perth
+
+  php:
+    version: 5.4.5
+
+dependencies:
+  post:
+    # Update our dependencies
+    - composer install
+    - phpcs --config-set installed_paths ./vendor/magento-ecg/coding-standard
+
+test:
+  override:
+    # Run PHPCS
+    - php bin/phpcs --standard=./vendor/magento-ecg/coding-standard/Ecg Location

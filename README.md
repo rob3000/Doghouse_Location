@@ -1,6 +1,8 @@
 Doghouse Location
 =================
 
+[![Circle CI](https://circleci.com/gh/rob3000/Doghouse_Location.svg?style=svg)](https://circleci.com/gh/rob3000/Doghouse_Location)
+
 List your store locations in the frontend and manage them in the admin section. Blazingly fast and amazing module. Again, continuing the trend of things that make no design-decisions for you, this module doesn't actually show anything in the frontend. It just comes with a nice backend interface.
 
 ## Features

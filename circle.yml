@@ -13,4 +13,4 @@ dependencies:
 test:
   override:
     # Run PHPCS
-    - php bin/phpcs --standard=./vendor/magento-ecg/coding-standard/Ecg Location
+    - php bin/phpcs -n --standard=./vendor/magento-ecg/coding-standard/Ecg Location

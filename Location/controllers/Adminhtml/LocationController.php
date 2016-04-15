@@ -89,8 +89,9 @@ class Doghouse_Location_Adminhtml_LocationController extends Mage_Adminhtml_Cont
 
                 try {
 
+                    $uploader = new Varien_File_Uploader('image');
                     //File upload
-                    if(isset($_FILES['image']['name']) && $_FILES['image']['name'] != '') {
+                    if(isset($uploader)) {
                         if($filename = Mage::helper('dhlocation')->saveImage('image')) {
                             $post_data['image'] = $filename;
                         }

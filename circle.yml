@@ -9,7 +9,6 @@ dependencies:
   post:
     # Update our dependencies
     - composer install
-    - phpcs --config-set installed_paths ./vendor/magento-ecg/coding-standard
 
 test:
   override:
